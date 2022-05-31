@@ -26,12 +26,10 @@ int main() {
   return 0;
 }
 
-// check prime number
 bool check_prime(int n) {
   int i;
   bool is_prime = true;
 
-  // 0 and 1 are not prime numbers
   if (n == 0 || n == 1) {
     is_prime = false;
   }
